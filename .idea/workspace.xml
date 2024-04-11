@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f92642bd-d77a-4485-892c-0e7535962958" name="Changes" comment="" />
+    <list default="true" id="f92642bd-d77a-4485-892c-0e7535962958" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaUtils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LanguagesAPI/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LanguagesAPI/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/McReflection/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/McReflection/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reflection/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/reflection/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
