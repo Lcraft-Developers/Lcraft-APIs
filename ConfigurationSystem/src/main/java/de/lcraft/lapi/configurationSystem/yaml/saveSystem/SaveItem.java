@@ -1,7 +1,7 @@
 package de.lcraft.lapi.configurationSystem.yaml.saveSystem;
 
-import de.lcraft.lapi.configurationSystem.yaml.Config;
 import de.lcraft.lapi.configurationSystem.yaml.AvailableTypes;
+import de.lcraft.lapi.configurationSystem.yaml.Config;
 import de.lcraft.lapi.configurationSystem.yaml.Item;
 
 class SaveItem extends Item {

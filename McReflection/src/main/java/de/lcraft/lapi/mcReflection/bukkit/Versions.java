@@ -15,7 +15,10 @@ public enum Versions {
     v1_19("1_19_R1", "1.19-R0.1-SNAPSHOT"),
     v1_19_1("1_19_R1", "1.19.1-R0.1-SNAPSHOT"),
     v1_19_2("1_19_R1", "1.19.2-R0.1-SNAPSHOT"),
-    v1_19_3("1_19_R2", "1.19.3-R0.1-SNAPSHOT");
+    v1_19_3("1_19_R2", "1.19.3-R0.1-SNAPSHOT"),
+    v1_19_4("1_19_R3", "1.19.4-R0.1-SNAPSHOT"),
+    v1_20("1_20_R1", "1.20-R0.1-SNAPSHOT"),
+    v1_20_1("1_20_R1", "1.20.1-R0.1-SNAPSHOT");
 
     private String nmsVersion;
     private String bukkitVersion;

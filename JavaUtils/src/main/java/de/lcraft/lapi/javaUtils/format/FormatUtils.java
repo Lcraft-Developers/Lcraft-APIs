@@ -2,6 +2,7 @@ package de.lcraft.lapi.javaUtils.format;
 
 import de.lcraft.lapi.javaUtils.NumberUtils;
 import org.apache.commons.lang3.time.DurationFormatUtils;
+
 import java.awt.*;
 import java.text.DecimalFormat;
 import java.util.ArrayList;

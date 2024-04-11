@@ -2,9 +2,9 @@ package de.lcraft.lapi.configurationSystem.sql.commands;
 
 import de.lcraft.lapi.configurationSystem.api.sql.SQLCommand;
 import de.lcraft.lapi.configurationSystem.api.sql.SQLCommandSender;
+import de.lcraft.lapi.configurationSystem.api.sql.SQLDataBase;
 import de.lcraft.lapi.configurationSystem.api.sql.SQLServer;
 import de.lcraft.lapi.javaUtils.StringUtils;
-import de.lcraft.lapi.configurationSystem.api.sql.SQLDataBase;
 
 import java.util.ArrayList;
 import java.util.List;

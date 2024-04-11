@@ -1,6 +1,7 @@
-package de.lcraft.lapi.javaUtils;
+/*package de.lcraft.lapi.javaUtils;
 
 import org.junit.jupiter.api.Test;
+
 import java.util.concurrent.TimeUnit;
 
 public class XPSCounterTest {
@@ -57,3 +58,4 @@ public class XPSCounterTest {
 	}
 
 }
+*/

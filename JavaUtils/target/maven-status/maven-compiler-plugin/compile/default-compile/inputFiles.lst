@@ -1,10 +1,19 @@
-D:\Development\workspace\LcraftAPI\JavaUtils\src\main\java\de\lcraft\lapi\javaUtils\format\FormatUtils.java
-D:\Development\workspace\LcraftAPI\JavaUtils\src\main\java\de\lcraft\lapi\javaUtils\XPSCounter.java
-D:\Development\workspace\LcraftAPI\JavaUtils\src\main\java\de\lcraft\lapi\javaUtils\InternetUtils.java
-D:\Development\workspace\LcraftAPI\JavaUtils\src\main\java\de\lcraft\lapi\javaUtils\FileUtils.java
-D:\Development\workspace\LcraftAPI\JavaUtils\src\main\java\de\lcraft\lapi\javaUtils\format\Format.java
-D:\Development\workspace\LcraftAPI\JavaUtils\src\main\java\de\lcraft\lapi\javaUtils\ListUtils.java
-D:\Development\workspace\LcraftAPI\JavaUtils\src\main\java\de\lcraft\lapi\javaUtils\format\ProgressBar.java
-D:\Development\workspace\LcraftAPI\JavaUtils\src\main\java\de\lcraft\lapi\javaUtils\NumberUtils.java
-D:\Development\workspace\LcraftAPI\JavaUtils\src\main\java\de\lcraft\lapi\javaUtils\ArrayUtils.java
-D:\Development\workspace\LcraftAPI\JavaUtils\src\main\java\de\lcraft\lapi\javaUtils\StringUtils.java
+C:\Users\LPDs Gaming Laptop\Desktop\Development\workspace\LcraftAPI\JavaUtils\src\main\java\de\lcraft\lapi\javaUtils\format\FormatUtils.java
+C:\Users\LPDs Gaming Laptop\Desktop\Development\workspace\LcraftAPI\JavaUtils\src\main\java\de\lcraft\lapi\javaUtils\StringUtils.java
+C:\Users\LPDs Gaming Laptop\Desktop\Development\workspace\LcraftAPI\JavaUtils\src\main\java\de\lcraft\lapi\javaUtils\api\queueWorker\ProcessQueue.java
+C:\Users\LPDs Gaming Laptop\Desktop\Development\workspace\LcraftAPI\JavaUtils\src\main\java\de\lcraft\lapi\javaUtils\ListUtils.java
+C:\Users\LPDs Gaming Laptop\Desktop\Development\workspace\LcraftAPI\JavaUtils\src\main\java\de\lcraft\lapi\javaUtils\format\Format.java
+C:\Users\LPDs Gaming Laptop\Desktop\Development\workspace\LcraftAPI\JavaUtils\src\main\java\de\lcraft\lapi\javaUtils\queueWorker\Process.java
+C:\Users\LPDs Gaming Laptop\Desktop\Development\workspace\LcraftAPI\JavaUtils\src\main\java\de\lcraft\lapi\javaUtils\XPSCounter.java
+C:\Users\LPDs Gaming Laptop\Desktop\Development\workspace\LcraftAPI\JavaUtils\src\main\java\de\lcraft\lapi\javaUtils\api\queueWorker\Process.java
+C:\Users\LPDs Gaming Laptop\Desktop\Development\workspace\LcraftAPI\JavaUtils\src\main\java\de\lcraft\lapi\javaUtils\ArrayUtils.java
+C:\Users\LPDs Gaming Laptop\Desktop\Development\workspace\LcraftAPI\JavaUtils\src\main\java\de\lcraft\lapi\javaUtils\api\queueWorker\QueueWorker.java
+C:\Users\LPDs Gaming Laptop\Desktop\Development\workspace\LcraftAPI\JavaUtils\src\main\java\de\lcraft\lapi\javaUtils\NumberUtils.java
+C:\Users\LPDs Gaming Laptop\Desktop\Development\workspace\LcraftAPI\JavaUtils\src\main\java\de\lcraft\lapi\javaUtils\api\queueWorker\ProcessQueueManager.java
+C:\Users\LPDs Gaming Laptop\Desktop\Development\workspace\LcraftAPI\JavaUtils\src\main\java\de\lcraft\lapi\javaUtils\api\queueWorker\Producer.java
+C:\Users\LPDs Gaming Laptop\Desktop\Development\workspace\LcraftAPI\JavaUtils\src\main\java\de\lcraft\lapi\javaUtils\format\ProgressBar.java
+C:\Users\LPDs Gaming Laptop\Desktop\Development\workspace\LcraftAPI\JavaUtils\src\main\java\de\lcraft\lapi\javaUtils\api\queueWorker\Consumer.java
+C:\Users\LPDs Gaming Laptop\Desktop\Development\workspace\LcraftAPI\JavaUtils\src\main\java\de\lcraft\lapi\javaUtils\FileUtils.java
+C:\Users\LPDs Gaming Laptop\Desktop\Development\workspace\LcraftAPI\JavaUtils\src\main\java\de\lcraft\lapi\javaUtils\queueWorker\ProcessQueueManager.java
+C:\Users\LPDs Gaming Laptop\Desktop\Development\workspace\LcraftAPI\JavaUtils\src\main\java\de\lcraft\lapi\javaUtils\InternetUtils.java
+C:\Users\LPDs Gaming Laptop\Desktop\Development\workspace\LcraftAPI\JavaUtils\src\main\java\de\lcraft\lapi\javaUtils\queueWorker\ProcessQueue.java

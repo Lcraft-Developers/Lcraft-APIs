@@ -7,13 +7,13 @@
     <name>Java Utils</name>
     <groupId>de.lcraft.lapi</groupId>
     <artifactId>javaUtils</artifactId>
-    <version>1.0.0 b6</version>
+    <version>1.0.0 b7</version>
     <packaging>jar</packaging>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.target>17</maven.compiler.target>
-        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <maven.compiler.source>21</maven.compiler.source>
     </properties>
 
     <build>
@@ -36,7 +36,9 @@
     </build>
 
     <dependencies>
-        <!-- Dependencies (also own coded) with will be included if you package/compile -->
+        <!-- Local dependencies witch will be included if you package/compile-->
+
+        <!-- Dependencies with will be included if you package/compile -->
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>

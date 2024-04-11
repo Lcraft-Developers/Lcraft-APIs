@@ -1,9 +1,8 @@
 package de.lcraft.lapi.configurationSystem.sql.mysql;
 
+import com.mysql.cj.jdbc.MysqlDataSource;
 import de.lcraft.lapi.configurationSystem.api.sql.SQLCommand;
 import de.lcraft.lapi.configurationSystem.api.sql.SQLServer;
-import de.lcraft.configurationSystem.sql.api.*;
-import com.mysql.cj.jdbc.MysqlDataSource;
 
 import java.sql.Connection;
 import java.sql.SQLException;

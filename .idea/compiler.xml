@@ -7,17 +7,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="languagesAPI" />
-        <module name="API" />
+        <module name="reflection" />
         <module name="javaUtils" />
-        <module name="queueWorker" />
         <module name="configurationSystem" />
         <module name="mcReflection" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="API" target="17" />
       <module name="LanguagesAPI" target="17" />
       <module name="McReflection" target="17" />
       <module name="project" target="17" />
+      <module name="queueWorker" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
