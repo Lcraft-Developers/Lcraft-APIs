@@ -1,10 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="8" />
+    <option name="CUSTOM_SCOPE_NAME" value="Own project" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f92642bd-d77a-4485-892c-0e7535962958" name="Changes" comment="" />
+    <list default="true" id="f92642bd-d77a-4485-892c-0e7535962958" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaUtils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaUtils/src/test/java/de/lcraft/lapi/javaUtils/XPSCounterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LanguagesAPI/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LanguagesAPI/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/McReflection/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/McReflection/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +47,11 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="NamedScopeManager">
+    <order>
+      <scope name="Own project" />
+    </order>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 5
@@ -56,7 +75,7 @@
     "jdk.selected.JAVA_MODULE": "openjdk-17",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/LPDs Gaming Laptop/Desktop/Development/workspace/LcraftAPI",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
@@ -82,41 +101,7 @@
       <recent name="de.lcraft.configurationSystem.mysql.api" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.mvn_dependencies_vcheck">
-    <configuration name="XPSCounterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.lcraft.lapi.javaUtils.XPSCounterTest" />
-      <module name="javaUtils" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="de.lcraft.lapi.javaUtils.xpsCounter.XPSCounterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.lcraft.lapi.javaUtils.xpsCounter.XPSCounterTest" />
-      <module name="javaUtils" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="XPSCounterTest.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javaUtils" />
-      <option name="PACKAGE_NAME" value="de.lcraft.lapi.javaUtils.xpsCounter" />
-      <option name="MAIN_CLASS_NAME" value="de.lcraft.lapi.javaUtils.xpsCounter.XPSCounterTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="XPSCounterTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javaUtils" />
-      <option name="PACKAGE_NAME" value="de.lcraft.lapi.javaUtils" />
-      <option name="MAIN_CLASS_NAME" value="de.lcraft.lapi.javaUtils.XPSCounterTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Lcraft-API" />
       <method v="2">
@@ -130,14 +115,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.XPSCounterTest" />
-        <item itemvalue="JUnit.XPSCounterTest.test" />
-        <item itemvalue="JUnit.XPSCounterTest.test (1)" />
-        <item itemvalue="Application.de.lcraft.lapi.javaUtils.xpsCounter.XPSCounterTest" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
