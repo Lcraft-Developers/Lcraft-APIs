@@ -4,33 +4,54 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <name>Java Utils</name>
+    <name>Reflection</name>
     <groupId>de.lcraft.lapi</groupId>
     <artifactId>reflection</artifactId>
-    <version>1.0.0 b1</version>
+    <version>${lapi.versions.Reflection}</version>
     <packaging>jar</packaging>
 
     <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.target>21</maven.compiler.target>
-        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>${lapi.options.java.version}</maven.compiler.target>
+        <maven.compiler.source>${lapi.options.java.version}</maven.compiler.source>
     </properties>
 
     <build>
         <plugins>
+            <!-- To compile the project !-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.1</version>
+                <version>${lapi.plugin_versions.compiler.version}</version>
                 <configuration>
-                    <source>21</source>
-                    <target>21</target>
+                    <source>${lapi.options.java.version}</source>
+                    <target>${lapi.options.java.version}</target>
                 </configuration>
             </plugin>
+
+            <!-- For JUnit !-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.22.2</version>
+                <version>${lapi.plugin_versions.surefire.version}</version>
+            </plugin>
+
+            <!-- To see if some dependencies are outdated !-->
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>versions-maven-plugin</artifactId>
+                <version>${lapi.plugin_versions.versions.version}</version>
+                <configuration>
+                    <rulesUri>file:///${project.basedir}/../rules.xml</rulesUri>
+                </configuration>
+                <executions>
+                    <execution>
+                        <phase>compile</phase>
+                        <goals>
+                            <goal>display-dependency-updates</goal>
+                            <goal>display-plugin-updates</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>
@@ -44,7 +65,7 @@
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
-            <version>5.10.2</version>
+            <version>${lapi.imports.versions.jUnit}</version>
             <scope>test</scope>
         </dependency>
     </dependencies>

@@ -12,19 +12,9 @@
       <option name="url" value="https://jitpack.io" />
     </remote-repository>
     <remote-repository>
-      <option name="id" value="spigot-repo" />
-      <option name="name" value="spigot-repo" />
-      <option name="url" value="https://hub.spigotmc.org/nexus/content/repositories/snapshots/" />
-    </remote-repository>
-    <remote-repository>
       <option name="id" value="sponge-repo" />
       <option name="name" value="Sponge Maven Repository" />
       <option name="url" value="https://repo.spongepowered.org/repository/maven-public/" />
-    </remote-repository>
-    <remote-repository>
-      <option name="id" value="bukkit-repo" />
-      <option name="name" value="bukkit-repo" />
-      <option name="url" value="http://repo.bukkit.org/content/groups/public/" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="central" />
@@ -42,16 +32,6 @@
       <option name="url" value="https://maven.pkg.github.com/LPDMinecraft/ConfigurationSystem" />
     </remote-repository>
     <remote-repository>
-      <option name="id" value="jboss.community" />
-      <option name="name" value="JBoss Community repository" />
-      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
-    </remote-repository>
-    <remote-repository>
-      <option name="id" value="bungeecord-repo" />
-      <option name="name" value="bungeecord-repo" />
-      <option name="url" value="https://oss.sonatype.org/content/repositories/snapshots" />
-    </remote-repository>
-    <remote-repository>
       <option name="id" value="central" />
       <option name="name" value="central" />
       <option name="url" value="https://repo1.maven.org/maven2" />
@@ -60,6 +40,31 @@
       <option name="id" value="papermc" />
       <option name="name" value="papermc" />
       <option name="url" value="https://repo.papermc.io/repository/maven-public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="spigot-repo" />
+      <option name="name" value="spigot-repo" />
+      <option name="url" value="https://hub.spigotmc.org/nexus/content/repositories/snapshots/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="Maven Central" />
+      <option name="name" value="Maven Central" />
+      <option name="url" value="https://repo1.maven.org/maven2/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="bukkit-repo" />
+      <option name="name" value="bukkit-repo" />
+      <option name="url" value="http://repo.bukkit.org/content/groups/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="bungeecord-repo" />
+      <option name="name" value="bungeecord-repo" />
+      <option name="url" value="https://oss.sonatype.org/content/repositories/snapshots" />
     </remote-repository>
   </component>
 </project>
