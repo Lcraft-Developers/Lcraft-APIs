@@ -1,117 +1,142 @@
-# LAPI
+# LAPI (Lcraft Application Programming Interfaces)
 
-[![Join us on Discord](https://img.shields.io/discord/856084949827321876.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/j2KwBaHZgD)
-![Downloads](https://img.shields.io/github/downloads/Lcraft-Developers/Lcraft-APIs/total?event=push&label=Downloads&logo=github)
+This is LAPI (Lcraft Application Programming Interface)
 
-This is LAPI (Lcraft Application Programming Interface). <br>
-With the goal of creating a centered and more customizable API System for Minecraft Plugins and Java Processes. <br>
-Now recreating to the newest v1.1 with a faster and more customizable structure, more features and own coded official modules.
+With the goal of creating a centered and more customizable API System for Minecraft Plugins and Java Processes
 
-## Our Projects
-:red_circle: Not started programming <br>
-:yellow_circle: Started, but not functioning <br>
-:orange_circle: Started and functioning, but no releases <br>
-:green_circle: Started, functional and released <br>
-:black_circle: Discontinued
+Now recreating to the newest v1.1 with a faster and more customizable structure, more features and own coded official modules
 
-### Minecraft
+[https://camo.githubusercontent.com/7dc080a5c1df546094be34936cdf87d9a453c1d2ad80d3ef2beefbbe7ce04c7d/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f646f776e6c6f6164732f4c63726166742d446576656c6f706572732f4c63726166742d415049732f746f74616c3f6576656e743d70757368266c6162656c3d446f776e6c6f616473266c6f676f3d676974687562](https://camo.githubusercontent.com/7dc080a5c1df546094be34936cdf87d9a453c1d2ad80d3ef2beefbbe7ce04c7d/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f646f776e6c6f6164732f4c63726166742d446576656c6f706572732f4c63726166742d415049732f746f74616c3f6576656e743d70757368266c6162656c3d446f776e6c6f616473266c6f676f3d676974687562)
 
-- **LAPI API** :yellow_circle:
-<br>(The API for the main core of the API)
+[https://camo.githubusercontent.com/26ff38986b94f1e2182c0892a39b54e77af817f589f68efdf92b0516a21223e4/68747470733a2f2f696d672e736869656c64732e696f2f646973636f72642f3835363038343934393832373332313837362e7376673f6c6162656c3d266c6f676f3d646973636f7264266c6f676f436f6c6f723d66666666666626636f6c6f723d373338394438266c6162656c436f6c6f723d364137454332](https://camo.githubusercontent.com/26ff38986b94f1e2182c0892a39b54e77af817f589f68efdf92b0516a21223e4/68747470733a2f2f696d672e736869656c64732e696f2f646973636f72642f3835363038343934393832373332313837362e7376673f6c6162656c3d266c6f676f3d646973636f7264266c6f676f436f6c6f723d66666666666626636f6c6f723d373338394438266c6162656c436f6c6f723d364137454332)
 
-- **LAPI McReflection** :yellow_circle:
-<br>(Used for the version controlling of all of ours Minecraft APIs/Plugins)
+## **Our Projects**
 
-- **LAPI QueueWorker** :yellow_circle:
-<br>(A QueueWorker API to work actions in a queue)
+⚪ Not started programming
 
-- **LAPI Bukkit** :red_circle:
-<br>(Use the main core for Bukkit, Spigot, Paper and other forks)
+🟡 Non functional
 
-- **LAPI BungeeCord** :red_circle:
-<br>(Use the main core for BungeeCord, Waterfall and other forks)
+🟠 Functional, but no public releases
 
-- **LAPI Velocity** :red_circle:
-<br>(Ise the main core for Velocity and other forks)
+🟢 Public releases
 
-- **LAPI Sponge** :red_circle:
-<br>(Use the main core for Sponges API and other forks)
+🟣 Planned Update
 
-### Own LAPI Modules
-
-- **LAPI Essentials Module** :red_circle:
-<br>(Replaces most of the in-game commands) 
+⚫ Discontinued
 
 ### Java
 
-- **LAPI JavaUtils** :orange_circle:
-<br>(Multiple useful Utils for Java coding)
+- **JavaUtils** 🟠🟣
+    
+    Different useful Tools, Utils and small systems for Java
+    
+- **ConfigurationSystem** 🟠🟣
+    
+    Configuration for SQL-Databases with prewritten commands and YAML-files 
+    
+- **Reflection** ⚪🟣
+    
+    System for Java-Reflection
+    
+- **LanguagesSystem 🟡🟣**
+    
+    Setting and managing of translations for different languages
+    
 
-- **LAPI ConfigurationSystem** :orange_circle:
-<br>(A own coded Configuration System for SQL- and Filesystems)
+### Minecraft
 
-- **LAPI LanguagesAPI** :yellow_circle:
-<br>(A own coded LanguagesSystem)
+- **McReflection 🟡🟣**
+    
+    System for specific Minecraft-Reflection and for version control
+    
+- **API** ⚪🟣
+    
+    The interface behind all Minecraft subprojects
+    
 
-## FAQ
+### Minecraft Module-system
 
-### How can I use it?
-If the specific project has the :green_circle: green circle, it means, that it has been released over Maven and a .jar file. <br>
-When we are uploading all of ours project to Maven, you can use it by click on the right side at the category "Packages". <br>
-Else you could build it yourself, but I do not recommend it and I will not guide you.
+- **Bukkit** ⚪
+    
+    The, for Bukkit optimized, implementation
+    
+- **Spigot** ⚪
+    
+    The, for Spigot optimized, implementation
+    
+- **Paper** ⚪
+    
+    The, for Paper optimized, implementation
+    
+- **Purpur** ⚪
+    
+    The, for Purpur optimized, implementation
+    
+- **Sponge** ⚪
+    
+    The, for Sponge optimized, implementation
+    
+- **Bungeecord** ⚪
+    
+    The, for Bungeecord optimized, implementation
+    
+- **Velocity** ⚪
+    
+    The, for Velocity optimized, implementation
+    
+- **Waterfall** ⚪
+    
+    The, for Waterfall optimized, implementation
+    
 
-### Where do I find the wiki?
-When the specific project get released, the wiki for it will be included.
+### Minecraft Modules
 
-## Releases
+- **Essentials Module (Server)** ⚪
+    
+    Replaces all in-game commands and for easier server/world control
+    
+- **Essentials Module (Proxy)** ⚪
+    
+    Replaces all in-game commands and for easier proxy control
+    
 
->
->
->### Upcoming releases
->
->14.07.2023 - **LAPI JavaUtils 1.0.0** <br>
->28.07.2023 - **LAPI LanguagesAPI 1.0.0** <br>
->18.08.2023 - **LAPI McReflection 1.0.0** <br>
->02.09.2023 - **LAPI ConfigurationSystem 1.2.1** <br>
->01.02.2024 - **LAPI API 2.0.0** <br>
->24.02.2024 - **LAPI Bukkit 2.0.0** <br>
->24.02.2024 - **LAPI BungeeCord 2.0.0**
->
->### Next steps
->
->#### ConfigurationSystem
->
->- Add yaml comments
->- Make interface for all Config types
->- Add new sql commands
->- Add local sql storage
->
->#### LanguagesAPI
->
->- Code LanguagesManager
->- Add multiple languages: de, en_us, en_uk
->
->#### McReflection
->
->- Recherche how Minecraft/Bukkit control Versions
->- Code McReflection
->- Add to the MainAPI the Reflection organisation
->
->
+## **FAQ**
 
-### Latest releases
+### **How can I use it?**
 
-18.03.2022 - **Lcraft API 1.0.9.8** <br>
-05.03.2022 - **Lcraft API 1.0.9.1** <br>
-04.03.2022 - **Lcraft API 1.0.9** <br>
-29.12.2021 - **Lcraft API 1.0.7** <br>
-17.12.2021 - **Lcraft API 1.0.6** <br>
-17.12.2021 - **Lcraft API 1.0.5** <br>
-07.12.2021 - **Lcraft API 1.0.3** <br>
-14.11.2021 - **Lcraft API 1.0.2** <br>
-13.11.2021 - **Lcraft API 1.0.1** <br>
+If the specific project has the 🟢 green circle, it means, that it has been released over Maven and a .jar file. When we are uploading all of ours project to Maven, you can use it by click on the right side at the category "Packages". Else you could build it yourself, but I do not recommend it and I will not guide you.
+
+### **When are Upcoming releases**
+
+Its hard to tell, because I am a single developer working on it and I am a student in my most important exam years. Like a proverb in my main language said: ”Besser spät, als nie”
+
+## **Next releases and steps**
+
+Just wait :)
+
+## **Latest public releases**
+
+18.03.2022 - **Lcraft API 1.0.9.8**
+
+05.03.2022 - **Lcraft API 1.0.9.1**
+
+04.03.2022 - **Lcraft API 1.0.9**
+
+29.12.2021 - **Lcraft API 1.0.7**
+
+17.12.2021 - **Lcraft API 1.0.6**
+
+17.12.2021 - **Lcraft API 1.0.5**
+
+07.12.2021 - **Lcraft API 1.0.3**
+
+14.11.2021 - **Lcraft API 1.0.2**
+
+13.11.2021 - **Lcraft API 1.0.1**
+
 13.11.2021 - **Lcraft API 1.0.0**
 
-## Discontinued projects
-- **Lcraft API v1.0** :black_circle:
-<br>(It was the main plugin for everything. It supported Spigot)
+## **Discontinued projects**
+
+- **Lcraft API v1.0** ⚫
+(It was the main plugin for everything and supported Spigot)
