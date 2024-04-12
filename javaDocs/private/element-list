@@ -1,0 +1,14 @@
+de.lcraft.lapi.configurationSystem.api.sql
+de.lcraft.lapi.configurationSystem.sql.commands
+de.lcraft.lapi.configurationSystem.sql.mysql
+de.lcraft.lapi.configurationSystem.yaml
+de.lcraft.lapi.configurationSystem.yaml.loadSystem
+de.lcraft.lapi.configurationSystem.yaml.saveSystem
+de.lcraft.lapi.javaUtils
+de.lcraft.lapi.javaUtils.api.queueWorker
+de.lcraft.lapi.javaUtils.format
+de.lcraft.lapi.javaUtils.queueWorker
+de.lcraft.lapi.languagesAPI
+de.lcraft.lapi.languagesAPI.api
+de.lcraft.lapi.mcReflection.api
+de.lcraft.lapi.mcReflection.bukkit
