@@ -4,6 +4,7 @@ import javax.net.ssl.HttpsURLConnection;
 import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.InetAddress;
+import java.net.URI;
 import java.net.URL;
 
 public class InternetUtils {
@@ -18,10 +19,11 @@ public class InternetUtils {
         int sucessIndex = 0;
 
         try {
-            URL url = new URL(urlStr);
+            URL httpURL = URI.create(StringUtils.addFirstIfNotExists(urlStr, "http://")).toURL();
+            URL httpsURL = URI.create(StringUtils.addFirstIfNotExists(urlStr, "https://")).toURL();
 
-            HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
-            HttpsURLConnection httpsURLConnection = (HttpsURLConnection) url.openConnection();
+            HttpURLConnection httpURLConnection = (HttpURLConnection) httpURL.openConnection();
+            HttpsURLConnection httpsURLConnection = (HttpsURLConnection) httpsURL.openConnection();
 
             int responseCodeHttp = httpURLConnection.getResponseCode();
             int responseCodeHttps = httpsURLConnection.getResponseCode();

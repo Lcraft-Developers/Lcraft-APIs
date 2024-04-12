@@ -1,272 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="8" />
+    <option name="CUSTOM_SCOPE_NAME" value="Own project" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="debdbb7d-ed5c-427a-9563-42363b269a54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Install.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Maven_Test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Package.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LanguagesSystem/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/mvn_dependencies_vcheck.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Version_Check.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConfigurationSystem/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/api/sql/SQLCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/api/sql/SQLCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/api/sql/SQLCommandSender.class" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/api/sql/SQLCommandSender.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/api/sql/SQLDataBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/api/sql/SQLDataBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/api/sql/SQLServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/api/sql/SQLServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/sql/commands/createTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/sql/commands/createTable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/sql/commands/deleteTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/sql/commands/deleteTable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/sql/mysql/MySQLDataBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/sql/mysql/MySQLDataBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/sql/mysql/MySQLServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/sql/mysql/MySQLServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/yaml/AvailableTypes.class" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/yaml/AvailableTypes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/yaml/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/yaml/Config.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/yaml/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/yaml/Item.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/yaml/loadSystem/LoadItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/yaml/loadSystem/LoadItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/yaml/loadSystem/LoadManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/yaml/loadSystem/LoadManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/yaml/saveSystem/SaveItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/yaml/saveSystem/SaveItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/yaml/saveSystem/SaveItemSorter.class" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/yaml/saveSystem/SaveItemSorter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/yaml/saveSystem/SaveManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/yaml/saveSystem/SaveManager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConfigurationSystem/target/configurationSystem-1.2.1 b5.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/target/configurationSystem-1.2.1 b5.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaUtils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/ArrayUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/ArrayUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaUtils/src/main/java/de/lcraft/lapi/javaUtils/ArrayUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaUtils/src/main/java/de/lcraft/lapi/javaUtils/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/src/main/java/de/lcraft/lapi/javaUtils/FileUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaUtils/src/main/java/de/lcraft/lapi/javaUtils/InternetUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/src/main/java/de/lcraft/lapi/javaUtils/InternetUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaUtils/src/main/java/de/lcraft/lapi/javaUtils/ListUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/src/main/java/de/lcraft/lapi/javaUtils/ListArrayUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaUtils/src/main/java/de/lcraft/lapi/javaUtils/NumberUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/src/main/java/de/lcraft/lapi/javaUtils/NumberUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaUtils/src/main/java/de/lcraft/lapi/javaUtils/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/src/main/java/de/lcraft/lapi/javaUtils/StringUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaUtils/src/main/java/de/lcraft/lapi/javaUtils/XPSCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/src/main/java/de/lcraft/lapi/javaUtils/XPSCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaUtils/src/main/java/de/lcraft/lapi/javaUtils/format/FormatUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/src/main/java/de/lcraft/lapi/javaUtils/format/FormatUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaUtils/src/main/java/de/lcraft/lapi/javaUtils/queueWorker/ProcessQueueManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/src/main/java/de/lcraft/lapi/javaUtils/queueWorker/ProcessQueueManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/ArrayUtils.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/FileUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/FileUtils.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/InternetUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/InternetUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/ListUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/ListUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/NumberUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/NumberUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/ListUtils.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/StringUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/StringUtils.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/XPSCounter.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/XPSCounter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/api/queueWorker/Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/api/queueWorker/Consumer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/api/queueWorker/Process.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/api/queueWorker/Process.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/api/queueWorker/ProcessQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/api/queueWorker/ProcessQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/api/queueWorker/ProcessQueueManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/api/queueWorker/ProcessQueueManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/api/queueWorker/Producer.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/api/queueWorker/Producer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/api/queueWorker/QueueWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/api/queueWorker/QueueWorker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/format/Format.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/format/Format.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/format/FormatUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/format/FormatUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/format/ProgressBar.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/format/ProgressBar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/queueWorker/Process.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/queueWorker/Process.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/queueWorker/ProcessQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/queueWorker/ProcessQueue.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/queueWorker/ProcessQueueManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/queueWorker/ProcessQueueManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaUtils/target/javaUtils-1.0.0 b6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaUtils/target/javaUtils-1.0.0 b7.jar" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/target/javaUtils-1.0.0 b7.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaUtils/target/javaUtils-1.0.0 b7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaUtils/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaUtils/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaUtils/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaUtils/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaUtils/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaUtils/target/surefire-reports/TEST-de.lcraft.lapi.javaUtils.XPSCounterTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaUtils/target/surefire-reports/de.lcraft.lapi.javaUtils.XPSCounterTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LanguagesAPI/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LanguagesAPI/src/main/java/de/lcraft/lapi/languagesAPI/LanguageManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/LanguagesSystem/src/main/java/de/lcraft/lapi/languagesAPI/LanguageManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LanguagesAPI/src/main/java/de/lcraft/lapi/languagesAPI/TranslatedText.java" beforeDir="false" afterPath="$PROJECT_DIR$/LanguagesSystem/src/main/java/de/lcraft/lapi/languagesAPI/TranslatedText.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LanguagesAPI/src/main/java/de/lcraft/lapi/languagesAPI/api/Language.java" beforeDir="false" afterPath="$PROJECT_DIR$/LanguagesSystem/src/main/java/de/lcraft/lapi/languagesAPI/api/Language.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LanguagesAPI/src/main/java/de/lcraft/lapi/languagesAPI/api/LanguageContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/LanguagesSystem/src/main/java/de/lcraft/lapi/languagesAPI/api/LanguageContainer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LanguagesAPI/src/main/java/de/lcraft/lapi/languagesAPI/api/LanguageManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/LanguagesSystem/src/main/java/de/lcraft/lapi/languagesAPI/api/LanguageManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LanguagesAPI/src/main/java/de/lcraft/lapi/languagesAPI/api/TranslatedText.java" beforeDir="false" afterPath="$PROJECT_DIR$/LanguagesSystem/src/main/java/de/lcraft/lapi/languagesAPI/api/TranslatedText.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LanguagesAPI/target/classes/de/lcraft/lapi/languagesAPI/LanguageManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/LanguagesSystem/target/classes/de/lcraft/lapi/languagesAPI/LanguageManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LanguagesAPI/target/classes/de/lcraft/lapi/languagesAPI/TranslatedText.class" beforeDir="false" afterPath="$PROJECT_DIR$/LanguagesSystem/target/classes/de/lcraft/lapi/languagesAPI/TranslatedText.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LanguagesAPI/target/classes/de/lcraft/lapi/languagesAPI/api/Language.class" beforeDir="false" afterPath="$PROJECT_DIR$/LanguagesSystem/target/classes/de/lcraft/lapi/languagesAPI/api/Language.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LanguagesAPI/target/classes/de/lcraft/lapi/languagesAPI/api/LanguageContainer.class" beforeDir="false" afterPath="$PROJECT_DIR$/LanguagesSystem/target/classes/de/lcraft/lapi/languagesAPI/api/LanguageContainer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LanguagesAPI/target/classes/de/lcraft/lapi/languagesAPI/api/LanguageManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/LanguagesSystem/target/classes/de/lcraft/lapi/languagesAPI/api/LanguageManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LanguagesAPI/target/classes/de/lcraft/lapi/languagesAPI/api/TranslatedText.class" beforeDir="false" afterPath="$PROJECT_DIR$/LanguagesSystem/target/classes/de/lcraft/lapi/languagesAPI/api/TranslatedText.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LanguagesAPI/target/languagesAPI-1.0.0 b5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LanguagesAPI/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/LanguagesSystem/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LanguagesAPI/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/LanguagesSystem/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LanguagesAPI/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/LanguagesSystem/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LanguagesSystem/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LanguagesSystem/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LanguagesSystem/target/languagesSystem-1.0.0 b5.jar" beforeDir="false" afterPath="$PROJECT_DIR$/LanguagesSystem/target/languagesSystem-1.0.0 b5.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/McReflection/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/McReflection/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/McReflection/target/classes/de/lcraft/lapi/mcReflection/api/VersionControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/McReflection/target/classes/de/lcraft/lapi/mcReflection/api/VersionControl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/McReflection/target/classes/de/lcraft/lapi/mcReflection/bukkit/VersionControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/McReflection/target/classes/de/lcraft/lapi/mcReflection/bukkit/VersionControl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/McReflection/target/classes/de/lcraft/lapi/mcReflection/bukkit/Versions.class" beforeDir="false" afterPath="$PROJECT_DIR$/McReflection/target/classes/de/lcraft/lapi/mcReflection/bukkit/Versions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/McReflection/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/McReflection/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/McReflection/target/mcReflection-1.0.0 b2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/McReflection/target/mcReflection-1.0.0 b2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/allclasses-index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/allpackages-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/allpackages-index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/constant-values.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/copy.svg" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/copy.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/configurationSystem/api/sql/SQLCommand.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/configurationSystem/api/sql/SQLCommand.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/configurationSystem/api/sql/SQLCommandSender.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/configurationSystem/api/sql/SQLCommandSender.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/configurationSystem/api/sql/SQLDataBase.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/configurationSystem/api/sql/SQLDataBase.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/configurationSystem/api/sql/SQLServer.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/configurationSystem/api/sql/SQLServer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/configurationSystem/api/sql/class-use/SQLCommand.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/configurationSystem/api/sql/class-use/SQLCommand.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/configurationSystem/api/sql/class-use/SQLCommandSender.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/configurationSystem/api/sql/class-use/SQLCommandSender.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/configurationSystem/api/sql/class-use/SQLDataBase.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/configurationSystem/api/sql/class-use/SQLDataBase.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/configurationSystem/api/sql/class-use/SQLServer.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/configurationSystem/api/sql/class-use/SQLServer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/configurationSystem/api/sql/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/configurationSystem/api/sql/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/configurationSystem/api/sql/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/configurationSystem/api/sql/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/configurationSystem/api/sql/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/configurationSystem/api/sql/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/configurationSystem/sql/commands/class-use/createTable.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/configurationSystem/sql/commands/class-use/createTable.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/configurationSystem/sql/commands/class-use/deleteTable.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/configurationSystem/sql/commands/class-use/deleteTable.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/configurationSystem/sql/commands/createTable.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/configurationSystem/sql/commands/createTable.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/configurationSystem/sql/commands/deleteTable.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/configurationSystem/sql/commands/deleteTable.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/configurationSystem/sql/commands/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/configurationSystem/sql/commands/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/configurationSystem/sql/commands/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/configurationSystem/sql/commands/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/configurationSystem/sql/commands/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/configurationSystem/sql/commands/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/configurationSystem/sql/mysql/MySQLDataBase.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/configurationSystem/sql/mysql/MySQLDataBase.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/configurationSystem/sql/mysql/MySQLServer.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/configurationSystem/sql/mysql/MySQLServer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/configurationSystem/sql/mysql/class-use/MySQLDataBase.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/configurationSystem/sql/mysql/class-use/MySQLDataBase.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/configurationSystem/sql/mysql/class-use/MySQLServer.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/configurationSystem/sql/mysql/class-use/MySQLServer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/configurationSystem/sql/mysql/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/configurationSystem/sql/mysql/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/configurationSystem/sql/mysql/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/configurationSystem/sql/mysql/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/configurationSystem/sql/mysql/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/configurationSystem/sql/mysql/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/configurationSystem/yaml/AvailableTypes.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/configurationSystem/yaml/AvailableTypes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/configurationSystem/yaml/Config.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/configurationSystem/yaml/Config.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/configurationSystem/yaml/Item.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/configurationSystem/yaml/Item.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/configurationSystem/yaml/class-use/AvailableTypes.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/configurationSystem/yaml/class-use/AvailableTypes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/configurationSystem/yaml/class-use/Config.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/configurationSystem/yaml/class-use/Config.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/configurationSystem/yaml/class-use/Item.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/configurationSystem/yaml/class-use/Item.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/configurationSystem/yaml/loadSystem/LoadManager.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/configurationSystem/yaml/loadSystem/LoadManager.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/configurationSystem/yaml/loadSystem/class-use/LoadManager.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/configurationSystem/yaml/loadSystem/class-use/LoadManager.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/configurationSystem/yaml/loadSystem/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/configurationSystem/yaml/loadSystem/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/configurationSystem/yaml/loadSystem/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/configurationSystem/yaml/loadSystem/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/configurationSystem/yaml/loadSystem/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/configurationSystem/yaml/loadSystem/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/configurationSystem/yaml/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/configurationSystem/yaml/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/configurationSystem/yaml/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/configurationSystem/yaml/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/configurationSystem/yaml/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/configurationSystem/yaml/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/configurationSystem/yaml/saveSystem/SaveManager.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/configurationSystem/yaml/saveSystem/SaveManager.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/configurationSystem/yaml/saveSystem/class-use/SaveManager.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/configurationSystem/yaml/saveSystem/class-use/SaveManager.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/configurationSystem/yaml/saveSystem/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/configurationSystem/yaml/saveSystem/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/configurationSystem/yaml/saveSystem/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/configurationSystem/yaml/saveSystem/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/configurationSystem/yaml/saveSystem/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/configurationSystem/yaml/saveSystem/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/javaUtils/ArrayUtils.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/javaUtils/ArrayUtils.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/javaUtils/FileUtils.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/javaUtils/FileUtils.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/javaUtils/InternetUtils.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/javaUtils/InternetUtils.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/javaUtils/ListUtils.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/javaUtils/ListUtils.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/javaUtils/NumberUtils.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/javaUtils/NumberUtils.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/javaUtils/StringUtils.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/javaUtils/StringUtils.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/javaUtils/XPSCounter.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/javaUtils/XPSCounter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/javaUtils/api/queueWorker/Consumer.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/javaUtils/api/queueWorker/Consumer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/javaUtils/api/queueWorker/Process.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/javaUtils/api/queueWorker/Process.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/javaUtils/api/queueWorker/ProcessQueue.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/javaUtils/api/queueWorker/ProcessQueue.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/javaUtils/api/queueWorker/ProcessQueueManager.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/javaUtils/api/queueWorker/ProcessQueueManager.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/javaUtils/api/queueWorker/Producer.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/javaUtils/api/queueWorker/Producer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/javaUtils/api/queueWorker/QueueWorker.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/javaUtils/api/queueWorker/QueueWorker.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/javaUtils/api/queueWorker/class-use/Consumer.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/javaUtils/api/queueWorker/class-use/Consumer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/javaUtils/api/queueWorker/class-use/Process.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/javaUtils/api/queueWorker/class-use/Process.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/javaUtils/api/queueWorker/class-use/ProcessQueue.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/javaUtils/api/queueWorker/class-use/ProcessQueue.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/javaUtils/api/queueWorker/class-use/ProcessQueueManager.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/javaUtils/api/queueWorker/class-use/ProcessQueueManager.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/javaUtils/api/queueWorker/class-use/Producer.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/javaUtils/api/queueWorker/class-use/Producer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/javaUtils/api/queueWorker/class-use/QueueWorker.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/javaUtils/api/queueWorker/class-use/QueueWorker.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/javaUtils/api/queueWorker/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/javaUtils/api/queueWorker/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/javaUtils/api/queueWorker/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/javaUtils/api/queueWorker/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/javaUtils/api/queueWorker/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/javaUtils/api/queueWorker/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/javaUtils/class-use/ArrayUtils.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/javaUtils/class-use/ArrayUtils.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/javaUtils/class-use/FileUtils.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/javaUtils/class-use/FileUtils.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/javaUtils/class-use/InternetUtils.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/javaUtils/class-use/InternetUtils.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/javaUtils/class-use/ListUtils.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/javaUtils/class-use/ListUtils.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/javaUtils/class-use/NumberUtils.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/javaUtils/class-use/NumberUtils.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/javaUtils/class-use/StringUtils.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/javaUtils/class-use/StringUtils.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/javaUtils/class-use/XPSCounter.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/javaUtils/class-use/XPSCounter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/javaUtils/format/Format.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/javaUtils/format/Format.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/javaUtils/format/FormatUtils.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/javaUtils/format/FormatUtils.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/javaUtils/format/class-use/Format.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/javaUtils/format/class-use/Format.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/javaUtils/format/class-use/FormatUtils.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/javaUtils/format/class-use/FormatUtils.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/javaUtils/format/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/javaUtils/format/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/javaUtils/format/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/javaUtils/format/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/javaUtils/format/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/javaUtils/format/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/javaUtils/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/javaUtils/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/javaUtils/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/javaUtils/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/javaUtils/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/javaUtils/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/javaUtils/queueWorker/Process.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/javaUtils/queueWorker/Process.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/javaUtils/queueWorker/ProcessQueue.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/javaUtils/queueWorker/ProcessQueue.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/javaUtils/queueWorker/ProcessQueueManager.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/javaUtils/queueWorker/ProcessQueueManager.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/javaUtils/queueWorker/class-use/Process.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/javaUtils/queueWorker/class-use/Process.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/javaUtils/queueWorker/class-use/ProcessQueue.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/javaUtils/queueWorker/class-use/ProcessQueue.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/javaUtils/queueWorker/class-use/ProcessQueueManager.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/javaUtils/queueWorker/class-use/ProcessQueueManager.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/javaUtils/queueWorker/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/javaUtils/queueWorker/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/javaUtils/queueWorker/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/javaUtils/queueWorker/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/javaUtils/queueWorker/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/javaUtils/queueWorker/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/languagesAPI/LanguageManager.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/languagesAPI/LanguageManager.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/languagesAPI/TranslatedText.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/languagesAPI/TranslatedText.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/languagesAPI/api/Language.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/languagesAPI/api/Language.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/languagesAPI/api/LanguageContainer.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/languagesAPI/api/LanguageContainer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/languagesAPI/api/LanguageManager.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/languagesAPI/api/LanguageManager.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/languagesAPI/api/TranslatedText.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/languagesAPI/api/TranslatedText.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/languagesAPI/api/class-use/Language.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/languagesAPI/api/class-use/Language.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/languagesAPI/api/class-use/LanguageContainer.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/languagesAPI/api/class-use/LanguageContainer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/languagesAPI/api/class-use/LanguageManager.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/languagesAPI/api/class-use/LanguageManager.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/languagesAPI/api/class-use/TranslatedText.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/languagesAPI/api/class-use/TranslatedText.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/languagesAPI/api/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/languagesAPI/api/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/languagesAPI/api/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/languagesAPI/api/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/languagesAPI/api/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/languagesAPI/api/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/languagesAPI/class-use/LanguageManager.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/languagesAPI/class-use/LanguageManager.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/languagesAPI/class-use/TranslatedText.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/languagesAPI/class-use/TranslatedText.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/languagesAPI/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/languagesAPI/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/languagesAPI/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/languagesAPI/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/languagesAPI/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/languagesAPI/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/mcReflection/api/VersionControl.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/mcReflection/api/VersionControl.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/mcReflection/api/class-use/VersionControl.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/mcReflection/api/class-use/VersionControl.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/mcReflection/api/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/mcReflection/api/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/mcReflection/api/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/mcReflection/api/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/mcReflection/api/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/mcReflection/api/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/mcReflection/bukkit/VersionControl.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/mcReflection/bukkit/VersionControl.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/mcReflection/bukkit/Versions.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/mcReflection/bukkit/Versions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/mcReflection/bukkit/class-use/VersionControl.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/mcReflection/bukkit/class-use/VersionControl.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/mcReflection/bukkit/class-use/Versions.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/mcReflection/bukkit/class-use/Versions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/mcReflection/bukkit/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/mcReflection/bukkit/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/mcReflection/bukkit/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/mcReflection/bukkit/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/de/lcraft/lapi/mcReflection/bukkit/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/de/lcraft/lapi/mcReflection/bukkit/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/element-list" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/element-list" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/help-doc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/index-files/index-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/index-files/index-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/index-files/index-10.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/index-files/index-11.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/index-files/index-11.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/index-files/index-12.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/index-files/index-12.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/index-files/index-13.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/index-files/index-13.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/index-files/index-14.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/index-files/index-14.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/index-files/index-15.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/index-files/index-15.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/index-files/index-16.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/index-files/index-16.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/index-files/index-17.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/index-files/index-17.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/index-files/index-18.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/index-files/index-18.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/index-files/index-19.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/index-files/index-19.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/index-files/index-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/index-files/index-20.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/index-files/index-20.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/index-files/index-3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/index-files/index-4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/index-files/index-5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/index-files/index-6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/index-files/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/index-files/index-7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/index-files/index-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/index-files/index-8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/index-files/index-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/index-files/index-9.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/legal/ADDITIONAL_LICENSE_INFO" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/legal/ADDITIONAL_LICENSE_INFO" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/legal/ASSEMBLY_EXCEPTION" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/legal/ASSEMBLY_EXCEPTION" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/legal/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/legal/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/legal/jquery.md" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/legal/jquery.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/legal/jqueryUI.md" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/legal/jqueryUI.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/link.svg" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/link.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/member-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/member-search-index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/module-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/module-search-index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/overview-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/overview-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/package-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/package-search-index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/resources/glass.png" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/resources/glass.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/resources/x.png" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/resources/x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/script-dir/jquery-3.6.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/script-dir/jquery-3.6.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/script-dir/jquery-ui.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/script-dir/jquery-ui.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/script-dir/jquery-ui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/script-dir/jquery-ui.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/search-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/search-page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/stylesheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/tag-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/tag-search-index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDocs/private/type-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/_javaDocs/private/type-search-index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reflection/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/reflection/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reflection/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reflection/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reflection/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reflection/target/reflection-1.0.0 b1.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -274,10 +59,18 @@
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
   </component>
+  <component name="NamedScopeManager">
+    <order>
+      <scope name="Own project" />
+    </order>
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 5
 }]]></component>
   <component name="ProjectId" id="2f0iafmCMgE92PJPr9JU8r2QHXa" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -287,6 +80,7 @@
     "Maven.Install.executor": "Run",
     "Maven.Maven Test.executor": "Run",
     "Maven.Package.executor": "Run",
+    "Maven.Test.executor": "Run",
     "Maven.Version Check.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -301,6 +95,7 @@
     <list>
       <item itemvalue="Maven.Version Check" />
       <item itemvalue="Maven.Package" />
+      <item itemvalue="Maven.Test" />
       <item itemvalue="Maven.Maven Test" />
     </list>
   </component>

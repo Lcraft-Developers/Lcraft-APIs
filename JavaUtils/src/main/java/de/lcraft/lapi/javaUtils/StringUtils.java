@@ -10,6 +10,10 @@ public class StringUtils {
         if(startIndex > -1) stringBuilder.replace(startIndex, lastIndex, replaced);
         return stringBuilder.toString();
     }
+    public static String addFirstIfNotExists(String str, String first) {
+        if(str.startsWith(first)) return str;
+        else return first + str;
+    }
     private static int lengthLetters(int type, String str) {
         int amount = 0;
         for(char cha : str.toCharArray()) {

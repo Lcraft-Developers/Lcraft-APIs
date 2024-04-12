@@ -67,6 +67,7 @@ public class FormatUtils {
 	public static boolean isFormatLegal(int[] format, double width, double height) {
 		return (width / format[0]) == (height / format[1]) && (width > 0 || height > 0);
 	}
+	@Deprecated
 	public static boolean isFormatLegalSlow(int[] format, double width, double height) {
 		return Arrays.toString(getFormatInt(width, height)).equals(Arrays.toString(format));
 	}

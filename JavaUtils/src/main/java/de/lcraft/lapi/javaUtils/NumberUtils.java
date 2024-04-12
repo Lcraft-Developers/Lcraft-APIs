@@ -8,7 +8,7 @@ public class NumberUtils {
         return new Random().nextInt(max + 1 - min) + min;
     }
     public static boolean isInteger(double v) {
-        return (v== Math.floor(v)) && !Double.isInfinite(v);
+        return (v == Math.floor(v)) && !Double.isInfinite(v);
     }
 
 }

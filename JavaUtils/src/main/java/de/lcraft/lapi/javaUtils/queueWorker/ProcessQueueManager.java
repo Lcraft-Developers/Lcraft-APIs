@@ -6,6 +6,7 @@ import de.lcraft.lapi.javaUtils.api.queueWorker.Producer;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public class ProcessQueueManager<T> implements de.lcraft.lapi.javaUtils.api.queueWorker.ProcessQueueManager<T> {
 
@@ -25,26 +26,26 @@ public class ProcessQueueManager<T> implements de.lcraft.lapi.javaUtils.api.queu
     @Override
     public void startProducer() {
         getProducer().forEach(tProducer -> {
-            if(!tProducer.isRunning()) tProducer.run();
+            if(Objects.nonNull(tProducer) && !tProducer.isRunning()) tProducer.run();
         });
     }
     @Override
     public void stopProducer() {
         getProducer().forEach(tProducer -> {
-            if(tProducer.isRunning()) tProducer.stop();
+            if(Objects.nonNull(tProducer) && tProducer.isRunning()) tProducer.stop();
         });
     }
 
     @Override
     public void startConsumer() {
         getConsumer().forEach(tConsumer -> {
-            if(!tConsumer.isRunning()) tConsumer.run();
+            if(Objects.nonNull(tConsumer) && !tConsumer.isRunning()) tConsumer.run();
         });
     }
     @Override
     public void stopConsumer() {
         getConsumer().forEach(tConsumer -> {
-            if(tConsumer.isRunning()) tConsumer.stop();
+            if(Objects.nonNull(tConsumer) && tConsumer.isRunning()) tConsumer.stop();
         });
     }
     @Override

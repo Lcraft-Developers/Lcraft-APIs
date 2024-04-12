@@ -37,8 +37,11 @@ public class XPSCounter {
 
 		return averageFrameTime;
 	}
+	public Long getAverageFrameTime_micros() {
+		return TimeUnit.NANOSECONDS.toMicros(getAverageFrameTime_ns());
+	}
 	public Long getAverageFrameTime_ms() {
-		return TimeUnit.NANOSECONDS.toMillis(getAverageFrameTime_ns());
+		return TimeUnit.MICROSECONDS.toMillis(getAverageFrameTime_micros());
 	}
 	public Long getAverageFrameTime_sec() {
 		return TimeUnit.NANOSECONDS.toSeconds(getAverageFrameTime_ns());
