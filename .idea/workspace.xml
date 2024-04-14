@@ -8,7 +8,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="debdbb7d-ed5c-427a-9563-42363b269a54" name="Changes" comment="" />
+    <list default="true" id="debdbb7d-ed5c-427a-9563-42363b269a54" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/api/yaml/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/api/yaml/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/yaml/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/yaml/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/src/test/java/de/lcraft/lapi/configurationSystem/yaml/ConfigTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/src/test/java/de/lcraft/lapi/configurationSystem/yaml/ConfigTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/api/yaml/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/api/yaml/Config.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/yaml/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/yaml/Config.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/target/test-classes/de/lcraft/lapi/configurationSystem/yaml/ConfigTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/target/test-classes/de/lcraft/lapi/configurationSystem/yaml/ConfigTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/tests/configurationSystem/yaml/testConfig/testConfig_1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaUtils/src/test/java/de/lcraft/lapi/javaUtils/JavaUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/src/test/java/de/lcraft/lapi/javaUtils/JavaUtilsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaUtils/target/javaUtils-1.0.0 b8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaUtils/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaUtils/target/surefire-reports/2024-04-12T21-15-26_965-jvmRun1-commands.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaUtils/target/surefire-reports/2024-04-12T21-15-26_965-jvmRun1-events.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaUtils/target/surefire-reports/TEST-de.lcraft.lapi.javaUtils.JavaUtilsTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/target/surefire-reports/TEST-de.lcraft.lapi.javaUtils.JavaUtilsTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaUtils/target/surefire-reports/de.lcraft.lapi.javaUtils.JavaUtilsTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/target/surefire-reports/de.lcraft.lapi.javaUtils.JavaUtilsTest.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,24 +61,57 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JUnit.ConfigTest.testConfig.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Install.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Maven Test.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Package.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Version Check.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;dev__1.1&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.ConfigTest.executor": "Run",
+    "JUnit.ConfigTest.testBasicConfigFunctions.executor": "Run",
+    "JUnit.ConfigTest.testConfig.executor": "Run",
+    "Maven.Install.executor": "Run",
+    "Maven.Maven Test.executor": "Run",
+    "Maven.Package.executor": "Run",
+    "Maven.Test.executor": "Run",
+    "Maven.Version Check.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "dev__1.1",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Global Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.ConfigTest.testConfig">
+}]]></component>
+  <component name="RunManager" selected="Maven.Package">
+    <configuration name="ConfigTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="configurationSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.lcraft.lapi.configurationSystem.yaml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.lcraft.lapi.configurationSystem.yaml" />
+      <option name="MAIN_CLASS_NAME" value="de.lcraft.lapi.configurationSystem.yaml.ConfigTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigTest.testBasicConfigFunctions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="configurationSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.lcraft.lapi.configurationSystem.yaml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.lcraft.lapi.configurationSystem.yaml" />
+      <option name="MAIN_CLASS_NAME" value="de.lcraft.lapi.configurationSystem.yaml.ConfigTest" />
+      <option name="METHOD_NAME" value="testBasicConfigFunctions" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConfigTest.testConfig" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="configurationSystem" />
       <extension name="coverage">
@@ -80,6 +129,8 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.ConfigTest" />
+      <item itemvalue="JUnit.ConfigTest.testBasicConfigFunctions" />
       <item itemvalue="JUnit.ConfigTest.testConfig" />
       <item itemvalue="Maven.Version Check" />
       <item itemvalue="Maven.Package" />
@@ -88,6 +139,8 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ConfigTest" />
+        <item itemvalue="JUnit.ConfigTest.testBasicConfigFunctions" />
         <item itemvalue="JUnit.ConfigTest.testConfig" />
       </list>
     </recent_temporary>

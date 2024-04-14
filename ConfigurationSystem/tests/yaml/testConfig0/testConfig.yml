@@ -1,0 +1,8 @@
+server: Lcraft Networks
+    domain: lcraft.de
+    maxPlayers: 5
+    msg: 4
+        noHelp: You cant get help!
+        noPerm: You have no permissions!
+        notAuser: Youre not user
+        prefix: Lcraft

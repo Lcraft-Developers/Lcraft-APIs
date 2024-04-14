@@ -1,0 +1,27 @@
+server: Lcraft Networks
+    domain: lcraft.de
+    maxPlayers: 5
+    msg: 4
+        noHelp: You cant get help!
+        noPerm: You have no permissions!
+        notAuser: Youre not user
+        prefix: Lcraft
+    players: 
+        0: eindeutigLPD
+        1: Cooler_LK
+        2: YouTuber
+    points: 
+        Cooler_LK: 250
+        Youtuber: 560
+        eindeutigLPD: 100
+    socialMedia: 
+        0: YouTube
+        1: Twitch
+        2: Twitter
+        3: Amazon
+    updates: 
+        0: 1.16
+        1: 1.14
+        2: 1.15
+        3: 1.12
+        4: 1.13

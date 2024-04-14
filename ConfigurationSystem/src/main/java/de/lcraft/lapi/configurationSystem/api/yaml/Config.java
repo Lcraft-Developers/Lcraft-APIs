@@ -36,6 +36,13 @@ public interface Config {
 
 
 
+    void setArray(String root, Object[] objArray);
+    void setList(String root, List<?> list);
+    void setMap(String root, Map<?, ?> map);
+    void setSet(String root, Set<?> set);
+
+
+
     String getString(String root);
     Byte getByte(String root);
     Short getShort(String root);
@@ -98,15 +105,15 @@ public interface Config {
     Character getCharDefault(String root, Character obj);
     Boolean getBoolDefault(String root, Boolean obj);
 
-    String[] getStringArrayDefault(String root, String str);
-    Byte[] getByteArrayDefault(String root, Byte obj);
-    Short[] getShortArrayDefault(String root, Short obj);
-    Integer[] getIntArrayDefault(String root, Integer obj);
-    Double[] getDoubleArrayDefault(String root, Double obj);
-    Long[] getLongArrayDefault(String root, Long obj);
-    Float[] getFloatArrayDefault(String root, Float obj);
-    Character[] getCharArrayDefault(String root, Character obj);
-    Boolean[] getBoolArrayDefault(String root, Boolean obj);
+    String[] getStringArrayDefault(String root, String[] str);
+    Byte[] getByteArrayDefault(String root, Byte[] obj);
+    Short[] getShortArrayDefault(String root, Short[] obj);
+    Integer[] getIntArrayDefault(String root, Integer[] obj);
+    Double[] getDoubleArrayDefault(String root, Double[] obj);
+    Long[] getLongArrayDefault(String root, Long[] obj);
+    Float[] getFloatArrayDefault(String root, Float[] obj);
+    Character[] getCharArrayDefault(String root, Character[] obj);
+    Boolean[] getBoolArrayDefault(String root, Boolean[] obj);
 
     List<?> getListDefault(String root, List<?> obj);
     Map<?, ?> getMapDefault(String root, Map<?, ?> obj);

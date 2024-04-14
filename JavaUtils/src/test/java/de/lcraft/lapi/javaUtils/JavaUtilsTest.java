@@ -63,12 +63,21 @@ public class JavaUtilsTest {
         processQueueManager.stopProducer();
         processQueueManager.startConsumer();
         processQueueManager.stopConsumer();
+        processQueueManager.startConsumer();
         processQueueManager.stopConsumerOnFinish();
     }
 
     @Test
     public void testFileUtils() throws IOException {
-        List<File> children = FileUtils.getAllFilesFromFolder(new File("C://"));
+        File folder = new File("tests/fileUtils");
+        folder.mkdirs();
+        new File(folder, "file1.yml").createNewFile();
+        new File(folder, "file2.yml").createNewFile();
+        new File(folder, "file3.txt").createNewFile();
+        new File(folder, "file4.mp3").createNewFile();
+        new File(folder, "file5.mp4").createNewFile();
+
+        List<File> children = FileUtils.getAllFilesFromFolder(folder);
         FileUtils.getAllLinesFromFile(children.getLast());
     }
 
