@@ -23,8 +23,8 @@ public interface ConverterCalculator {
     String convertLineToRawLine(String line, Integer weight);
 
     String genNewLine(Item item);
-    String genNewLine(Integer weight, String id, Object value);
-    String genNewLine(String root, String id, Object value);
+    String genNewLine(Integer weight, String id, Object value, List<String> comments);
+    String genNewLine(String root, String id, Object value, List<String> comments);
 
     Item createItem(String root, String id, String completeRoot, Integer weight, String rawValue, Object value);
     Item createItem(String completeRoot, String rawValue);

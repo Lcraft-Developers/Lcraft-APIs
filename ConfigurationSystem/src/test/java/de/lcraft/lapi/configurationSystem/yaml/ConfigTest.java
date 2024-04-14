@@ -29,6 +29,11 @@ public class ConfigTest {
         config.set("server.msg.noPerm", "You have no permissions!");
         config.set("server.msg.notAuser", "Youre not user");
         config.set("server.maxPlayers", 5);
+
+        config.addComments("server", "This is the first comment.", "Yuhu!");
+        config.addComments("server.msg.prefix", "Here you can edit the prefix");
+        config.addComments("server.maxPlayers", "Maybe try infinite? (Spoiler: It will not work)");
+        config.addComments("server.msg", "How many messages?");
         config.save(configFile);
 
         config.load(configFile);
@@ -65,6 +70,12 @@ public class ConfigTest {
         config.setList("server.socialMedia", ListArrayUtils.makeStringArrayToList("YouTube", "Twitch", "Twitter", "Amazon"));
         config.setMap("server.points", new HashMap<>() {{put("eindeutigLPD", 100); put("Cooler_LK", 250); put("Youtuber", 560); }});
         config.setSet("server.updates", new HashSet<>() {{ add("1.12"); add("1.13"); add("1.14"); add("1.15"); add("1.16"); }});
+
+        config.addComments("server", "This is the first comment.", "Yuhu!");
+        config.addComments("server.msg.prefix", "Here you can edit the prefix");
+        config.addComments("server.maxPlayers", "Maybe try infinite? (Spoiler: It will not work)");
+        config.addComments("server.msg", "How many messages?");
+        config.addComments("server.updates", "Here you can see all updates of Minecraft");
         config.save(configFile);
 
         // Load and global load methods

@@ -11,19 +11,22 @@
     <list default="true" id="debdbb7d-ed5c-427a-9563-42363b269a54" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/api/yaml/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/api/yaml/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/api/yaml/managment/ConverterCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/api/yaml/managment/ConverterCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/api/yaml/managment/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/api/yaml/managment/Item.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/yaml/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/yaml/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/yaml/loadSystem/Loader.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/yaml/loadSystem/Loader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/yaml/managment/ConverterCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/yaml/managment/ConverterCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/yaml/managment/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/yaml/managment/Item.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConfigurationSystem/src/test/java/de/lcraft/lapi/configurationSystem/yaml/ConfigTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/src/test/java/de/lcraft/lapi/configurationSystem/yaml/ConfigTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/api/yaml/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/api/yaml/Config.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/yaml/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/yaml/Config.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/target/test-classes/de/lcraft/lapi/configurationSystem/yaml/ConfigTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/target/test-classes/de/lcraft/lapi/configurationSystem/yaml/ConfigTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/target/test-classes/de/lcraft/lapi/configurationSystem/yaml/ConfigTest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/target/test-classes/de/lcraft/lapi/configurationSystem/yaml/ConfigTest$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConfigurationSystem/target/test-classes/de/lcraft/lapi/configurationSystem/yaml/ConfigTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/target/test-classes/de/lcraft/lapi/configurationSystem/yaml/ConfigTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/tests/configurationSystem/yaml/testConfig/testConfig_1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaUtils/src/test/java/de/lcraft/lapi/javaUtils/JavaUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/src/test/java/de/lcraft/lapi/javaUtils/JavaUtilsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaUtils/target/javaUtils-1.0.0 b8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaUtils/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaUtils/target/surefire-reports/2024-04-12T21-15-26_965-jvmRun1-commands.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaUtils/target/surefire-reports/2024-04-12T21-15-26_965-jvmRun1-events.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaUtils/target/surefire-reports/TEST-de.lcraft.lapi.javaUtils.JavaUtilsTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/target/surefire-reports/TEST-de.lcraft.lapi.javaUtils.JavaUtilsTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaUtils/target/surefire-reports/de.lcraft.lapi.javaUtils.JavaUtilsTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/target/surefire-reports/de.lcraft.lapi.javaUtils.JavaUtilsTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/tests/yaml/testConfig0/reConfig.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/tests/yaml/testConfig0/reConfig.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/tests/yaml/testConfig0/testConfig.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/tests/yaml/testConfig0/testConfig.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/tests/yaml/testConfig1/reConfig.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/tests/yaml/testConfig1/reConfig.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/tests/yaml/testConfig1/testConfig.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/tests/yaml/testConfig1/testConfig.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,47 +94,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="de.lcraft.lapi.configurationSystem.yaml" />
       <option name="MAIN_CLASS_NAME" value="de.lcraft.lapi.configurationSystem.yaml.ConfigTest" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConfigTest.testBasicConfigFunctions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="configurationSystem" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="de.lcraft.lapi.configurationSystem.yaml.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="de.lcraft.lapi.configurationSystem.yaml" />
-      <option name="MAIN_CLASS_NAME" value="de.lcraft.lapi.configurationSystem.yaml.ConfigTest" />
-      <option name="METHOD_NAME" value="testBasicConfigFunctions" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConfigTest.testConfig" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="configurationSystem" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="de.lcraft.lapi.configurationSystem.yaml.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="de.lcraft.lapi.configurationSystem.yaml" />
-      <option name="MAIN_CLASS_NAME" value="de.lcraft.lapi.configurationSystem.yaml.ConfigTest" />
-      <option name="METHOD_NAME" value="testConfig" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="JUnit.ConfigTest" />
-      <item itemvalue="JUnit.ConfigTest.testBasicConfigFunctions" />
-      <item itemvalue="JUnit.ConfigTest.testConfig" />
       <item itemvalue="Maven.Version Check" />
       <item itemvalue="Maven.Package" />
       <item itemvalue="Maven.Test" />
@@ -140,8 +110,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ConfigTest" />
-        <item itemvalue="JUnit.ConfigTest.testBasicConfigFunctions" />
-        <item itemvalue="JUnit.ConfigTest.testConfig" />
       </list>
     </recent_temporary>
   </component>

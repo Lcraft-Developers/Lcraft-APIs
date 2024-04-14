@@ -1,8 +1,13 @@
+# This is the first comment.
+# Yuhu!
 server: Lcraft Networks
     domain: lcraft.de
+    # Maybe try infinite? (Spoiler: It will not work)
     maxPlayers: 5
+    # How many messages?
     msg: 4
         noHelp: You cant get help!
         noPerm: You have no permissions!
         notAuser: Youre not user
+        # Here you can edit the prefix
         prefix: Lcraft

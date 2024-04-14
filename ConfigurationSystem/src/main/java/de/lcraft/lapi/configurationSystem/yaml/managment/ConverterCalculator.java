@@ -44,7 +44,7 @@ public class ConverterCalculator implements de.lcraft.lapi.configurationSystem.a
     }
     @Override
     public Boolean isLineComment(String rawLine) {
-        return rawLine.startsWith(getCommentIndicator());
+        return convertRawLineToLine(rawLine).startsWith(getCommentIndicator());
     }
 
     @Override
@@ -114,15 +114,18 @@ public class ConverterCalculator implements de.lcraft.lapi.configurationSystem.a
 
     @Override
     public String genNewLine(Item item) {
-        return genNewLine(item.getWeight(), item.getID(), item.getRawValue());
+        return genNewLine(item.getWeight(), item.getID(), item.getRawValue(), item.getComments());
     }
     @Override
-    public String genNewLine(Integer weight, String id, Object value) {
-        return convertWeightToSpace(weight) + id + getKeyValueSeparator() + value;
+    public String genNewLine(Integer weight, String id, Object value, List<String> comments) {
+        String newLine = convertWeightToSpace(weight) + id + getKeyValueSeparator() + value;
+        StringBuilder commentsLines = new StringBuilder();
+        for(String c : comments) commentsLines.append(convertWeightToSpace(weight)).append(getCommentIndicator()).append(" ").append(c).append(System.lineSeparator());
+        return commentsLines + newLine;
     }
     @Override
-    public String genNewLine(String root, String id, Object value) {
-        return genNewLine(calcWeightByRoot(root), id, value);
+    public String genNewLine(String root, String id, Object value, List<String> comments) {
+        return genNewLine(calcWeightByRoot(root), id, value, comments);
     }
 
     @Override

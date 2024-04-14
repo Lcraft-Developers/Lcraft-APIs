@@ -34,6 +34,9 @@ public interface Config {
     Object getDefault(String root, Object obj);
     boolean exists(String root);
 
+    void addComments(String root, String... comments);
+    void clearComments(String root);
+
 
 
     void setArray(String root, Object[] objArray);

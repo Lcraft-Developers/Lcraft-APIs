@@ -62,6 +62,22 @@ public class Config implements de.lcraft.lapi.configurationSystem.api.yaml.Confi
         return Objects.nonNull(get(root));
     }
 
+    @Override
+    public void addComments(String root, String... comments) {
+        if(!exists(root)) set(root, "");
+        Item item = null;
+        for(Item cItem : getItems()) if(cItem.getCompleteRoot().equals(root)) item = cItem;
+        if(item != null) item.addComments(comments);
+    }
+    @Override
+    public void clearComments(String root) {
+        if(exists(root)) {
+            Item item = null;
+            for(Item cItem : getItems()) if(cItem.getCompleteRoot().equals(root)) item = cItem;
+            if(item != null) item.clearComments();
+        }
+    }
+
 
 
     @Override

@@ -1,7 +1,7 @@
 package de.lcraft.lapi.configurationSystem.yaml.loadSystem;
 
 import de.lcraft.lapi.configurationSystem.api.yaml.loadSystem.LoadItem;
-import de.lcraft.lapi.configurationSystem.yaml.managment.ConverterCalculator;
+import de.lcraft.lapi.configurationSystem.api.yaml.managment.ConverterCalculator;
 import de.lcraft.lapi.javaUtils.FileUtils;
 import de.lcraft.lapi.javaUtils.ListArrayUtils;
 
@@ -21,13 +21,22 @@ public class Loader implements de.lcraft.lapi.configurationSystem.api.yaml.loadS
 
         List<String> allLines;
         List<String> linesBefore = new ArrayList<>();
+        List<String> currentComments = new ArrayList<>();
+        ConverterCalculator converterCalculator = new de.lcraft.lapi.configurationSystem.yaml.managment.ConverterCalculator();
 
         try { allLines = FileUtils.getAllLinesFromFile(file); }
         catch(IOException e) { throw new RuntimeException(e); }
 
         for(String rawLine : allLines) {
-            getLoadItems().add(new ConverterCalculator().convertRawLineToLoadItem(rawLine, ListArrayUtils.makeStringListToArray(linesBefore)));
-            linesBefore.add(rawLine);
+            if(!converterCalculator.isLineComment(rawLine)) {
+                LoadItem loadItem = converterCalculator.convertRawLineToLoadItem(rawLine, ListArrayUtils.makeStringListToArray(linesBefore));
+
+                if(!currentComments.isEmpty()) loadItem.addComments(ListArrayUtils.makeStringListToArray(currentComments));
+                currentComments.clear();
+
+                getLoadItems().add(loadItem);
+                linesBefore.add(rawLine);
+            } else currentComments.add(converterCalculator.convertRawLineToLine(rawLine.replaceFirst(de.lcraft.lapi.configurationSystem.yaml.managment.ConverterCalculator.getCommentIndicator() + " ", "")));
         }
 
         return getLoadItems();
