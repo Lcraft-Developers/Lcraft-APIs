@@ -10,14 +10,7 @@
   <component name="ChangeListManager">
     <list default="true" id="debdbb7d-ed5c-427a-9563-42363b269a54" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/api/sql/SQLCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/api/sql/SQLCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/api/sql/SQLCommandSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/api/sql/SQLCommandSender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/api/sql/SQLDataBase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/api/sql/SQLServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/sql/commands/createTable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/sql/commands/deleteTable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/sql/mysql/MySQLDataBase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/sql/mysql/MySQLServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaUtils/src/main/java/de/lcraft/lapi/javaUtils/ListArrayUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/src/main/java/de/lcraft/lapi/javaUtils/ListArrayUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

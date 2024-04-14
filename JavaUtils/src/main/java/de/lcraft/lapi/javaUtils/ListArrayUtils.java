@@ -7,23 +7,17 @@ import java.util.List;
 public class ListArrayUtils {
 
     public static boolean containsFromStringArray(String[] array, String cont) {
-        for(String c : array) {
-            if(c.equalsIgnoreCase(cont)) return true;
-        }
+        for(String c : array) { if(c.equalsIgnoreCase(cont)) return true; }
         return false;
     }
 
     public static String[] makeStringListToArray(List<String> arrayList) {
-        String[] all = new String[arrayList.size()];
-        for(int i = 0; i < arrayList.size(); i++) {
-            all[i] = arrayList.get(i);
-        }
-        return all;
+        String[] array = new String[arrayList.size()];
+        for(int i = 0; i < arrayList.size(); i++) array[i] = arrayList.get(i);
+        return array;
     }
     public static List<String> makeStringArrayToList(String... array) {
         return new ArrayList<>(Arrays.asList(array));
     }
-
-    // TODO: Add converter for more types
 
 }
