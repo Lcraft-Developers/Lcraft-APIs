@@ -1,10 +1,8 @@
 package de.lcraft.lapi.configurationSystem.sql.commands;
 
-import de.lcraft.lapi.configurationSystem.api.sql.SQLCommand;
-import de.lcraft.lapi.configurationSystem.api.sql.SQLCommandSender;
-import de.lcraft.lapi.configurationSystem.api.sql.SQLDataBase;
-import de.lcraft.lapi.configurationSystem.api.sql.SQLServer;
+import de.lcraft.lapi.configurationSystem.api.sql.*;
 
+// Website: https://www.dataquest.io/blog/sql-commands/
 public class deleteTable implements SQLCommand {
 
     private String tableName;
@@ -14,19 +12,9 @@ public class deleteTable implements SQLCommand {
     }
     private void init(String tableName) {
         if(tableName != null) setTableName(tableName);
-        else setTableName("");
     }
-
     @Override
     public String[] createSQL(SQLCommandSender SQLCommandSender) {
-        return new String[0];
-    }
-    @Override
-    public String[] createSQL(SQLServer SQLServer) {
-        return new String[0];
-    }
-    @Override
-    public String[] createSQL(SQLDataBase SQLDataBase) {
         return new String[]{"DROP TABLE " + getTableName()};
     }
 

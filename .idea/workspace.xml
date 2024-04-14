@@ -10,23 +10,14 @@
   <component name="ChangeListManager">
     <list default="true" id="debdbb7d-ed5c-427a-9563-42363b269a54" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/api/yaml/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/api/yaml/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/api/yaml/managment/ConverterCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/api/yaml/managment/ConverterCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/api/yaml/managment/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/api/yaml/managment/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/yaml/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/yaml/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/yaml/loadSystem/Loader.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/yaml/loadSystem/Loader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/yaml/managment/ConverterCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/yaml/managment/ConverterCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/yaml/managment/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/yaml/managment/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/src/test/java/de/lcraft/lapi/configurationSystem/yaml/ConfigTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/src/test/java/de/lcraft/lapi/configurationSystem/yaml/ConfigTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/api/yaml/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/api/yaml/Config.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/yaml/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/yaml/Config.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/target/test-classes/de/lcraft/lapi/configurationSystem/yaml/ConfigTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/target/test-classes/de/lcraft/lapi/configurationSystem/yaml/ConfigTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/target/test-classes/de/lcraft/lapi/configurationSystem/yaml/ConfigTest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/target/test-classes/de/lcraft/lapi/configurationSystem/yaml/ConfigTest$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/target/test-classes/de/lcraft/lapi/configurationSystem/yaml/ConfigTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/target/test-classes/de/lcraft/lapi/configurationSystem/yaml/ConfigTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/tests/yaml/testConfig0/reConfig.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/tests/yaml/testConfig0/reConfig.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/tests/yaml/testConfig0/testConfig.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/tests/yaml/testConfig0/testConfig.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/tests/yaml/testConfig1/reConfig.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/tests/yaml/testConfig1/reConfig.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/tests/yaml/testConfig1/testConfig.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/tests/yaml/testConfig1/testConfig.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/api/sql/SQLCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/api/sql/SQLCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/api/sql/SQLCommandSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/api/sql/SQLCommandSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/api/sql/SQLDataBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/api/sql/SQLServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/sql/commands/createTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/sql/commands/deleteTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/sql/mysql/MySQLDataBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/sql/mysql/MySQLServer.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,11 +69,17 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "dev__1.1",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/LPDs Gaming Laptop/Desktop/Development/workspace/LcraftAPI/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/newsql/commands",
     "project.structure.last.edited": "Global Libraries",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\LPDs Gaming Laptop\Desktop\Development\workspace\LcraftAPI\ConfigurationSystem\src\main\java\de\lcraft\lapi\configurationSystem\newsql\commands" />
+    </key>
+  </component>
   <component name="RunManager" selected="Maven.Package">
     <configuration name="ConfigTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="configurationSystem" />

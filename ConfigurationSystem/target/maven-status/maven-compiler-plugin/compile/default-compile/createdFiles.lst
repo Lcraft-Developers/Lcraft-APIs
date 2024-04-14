@@ -1,8 +1,9 @@
 de\lcraft\lapi\configurationSystem\api\sql\SQLCommandSender.class
 de\lcraft\lapi\configurationSystem\sql\commands\deleteTable.class
 de\lcraft\lapi\configurationSystem\sql\mysql\MySQLDataBase.class
-de\lcraft\lapi\configurationSystem\api\sql\SQLDataBase.class
+de\lcraft\lapi\configurationSystem\api\sql\MySQLConnector.class
 de\lcraft\lapi\configurationSystem\api\yaml\Config.class
+de\lcraft\lapi\configurationSystem\sql\mysql\MySQLSendConnector.class
 de\lcraft\lapi\configurationSystem\api\yaml\loadSystem\Loader.class
 de\lcraft\lapi\configurationSystem\sql\commands\createTable.class
 de\lcraft\lapi\configurationSystem\yaml\loadSystem\LoadItem.class
@@ -16,6 +17,5 @@ de\lcraft\lapi\configurationSystem\sql\mysql\MySQLServer.class
 de\lcraft\lapi\configurationSystem\api\yaml\managment\ConverterCalculator.class
 de\lcraft\lapi\configurationSystem\api\yaml\managment\Item.class
 de\lcraft\lapi\configurationSystem\yaml\managment\Item.class
-de\lcraft\lapi\configurationSystem\api\sql\SQLServer.class
 de\lcraft\lapi\configurationSystem\api\yaml\managment\ObjectType.class
 de\lcraft\lapi\configurationSystem\yaml\saveSystem\Saver.class

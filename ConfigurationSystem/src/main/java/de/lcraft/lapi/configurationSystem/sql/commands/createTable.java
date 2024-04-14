@@ -2,75 +2,61 @@ package de.lcraft.lapi.configurationSystem.sql.commands;
 
 import de.lcraft.lapi.configurationSystem.api.sql.SQLCommand;
 import de.lcraft.lapi.configurationSystem.api.sql.SQLCommandSender;
-import de.lcraft.lapi.configurationSystem.api.sql.SQLDataBase;
-import de.lcraft.lapi.configurationSystem.api.sql.SQLServer;
-import de.lcraft.lapi.javaUtils.StringUtils;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashMap;
 
+// Website: https://www.dataquest.io/blog/sql-commands/
 public class createTable implements SQLCommand {
 
     private String tableName;
-    private List<String[]> data;
+    private HashMap<Integer, String[]> columnsWithDataTypes;
 
-    public createTable(String tableName, List<String[]> data) {
-        init(tableName, data);
+    public createTable(String tableName, HashMap<Integer, String[]> columnsWithDataTypes) {
+        init(tableName, columnsWithDataTypes);
     }
     public createTable(String tableName) {
         init(tableName, null);
     }
-    private void init(String tableName, List<String[]> data) {
+    private void init(String tableName, HashMap<Integer, String[]> columnsWithDataTypes) {
         if(tableName != null) setTableName(tableName);
-        else setTableName("");
-
-        if(data != null) setData(data);
-        else setData(new ArrayList<>());
+        if(columnsWithDataTypes != null) setColumnsWithDataTypes(columnsWithDataTypes);
+        else setColumnsWithDataTypes(new HashMap<>());
     }
 
-    public void addColumn(String id, String type) {
-        setColumn(data.size(), id, type);
+    public void addColumn(String name, String type) {
+        setColumn(getColumnsWithDataTypes().size(), name, type);
     }
-    public void setColumn(int index, String id, String type) {
-        getData().set(index, new String[]{id, type});
+    public void setColumn(Integer index, String name, String type) {
+        getColumnsWithDataTypes().put(index, new String[]{name, type});
     }
-    public void removeColumn(int index) {
-        getData().remove(index);
+    public void removeColumn(Integer index) {
+        getColumnsWithDataTypes().remove(index);
     }
 
     @Override
     public String[] createSQL(SQLCommandSender SQLCommandSender) {
-        return new String[0];
-    }
-    @Override
-    public String[] createSQL(SQLServer SQLServer) {
-        return new String[0];
-    }
-    @Override
-    public String[] createSQL(SQLDataBase SQLDataBase) {
-        String sql = "CREATE TABLE " + getTableName() + " (";
-
-        for(String[] c : getData()) {
-            String id = c[0];
-            String type = c[1];
-
-            sql = sql + id + " " + type + ",";
+        StringBuilder sql = new StringBuilder("CREATE TABLE " + getTableName() + " (");
+        for(int index : getColumnsWithDataTypes().keySet()) {
+            String[] column = getColumnsWithDataTypes().get(index);
+            String name = column[0];
+            String type = column[1];
+            sql.append(name).append(" ").append(type).append(", ");
         }
-
-        return new String[]{StringUtils.replaceLast(sql, ",", "") + ")"};
+        return new String[]{sql + ");"};
     }
 
     public String getTableName() {
         return tableName;
     }
+    public HashMap<Integer, String[]> getColumnsWithDataTypes() {
+        return columnsWithDataTypes;
+    }
+
     private void setTableName(String tableName) {
         this.tableName = tableName;
     }
-    public List<String[]> getData() {
-        return data;
-    }
-    private void setData(List<String[]> data) {
-        this.data = data;
+    private void setColumnsWithDataTypes(HashMap<Integer, String[]> columnsWithDataTypes) {
+        this.columnsWithDataTypes = columnsWithDataTypes;
     }
 
 }
