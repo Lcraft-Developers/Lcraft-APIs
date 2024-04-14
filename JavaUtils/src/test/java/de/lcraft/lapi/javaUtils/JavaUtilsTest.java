@@ -9,6 +9,7 @@ import org.junit.jupiter.api.Test;
 
 import java.awt.*;
 import java.io.File;
+import java.io.IOException;
 import java.util.List;
 import java.util.function.Consumer;
 
@@ -66,8 +67,9 @@ public class JavaUtilsTest {
     }
 
     @Test
-    public void testFileUtils() {
-        FileUtils.getAllFilesFromFolder(new File("C://"));
+    public void testFileUtils() throws IOException {
+        List<File> children = FileUtils.getAllFilesFromFolder(new File("C://"));
+        FileUtils.getAllLinesFromFile(children.getLast());
     }
 
     @Test
@@ -95,6 +97,7 @@ public class JavaUtilsTest {
     public void testStringUtils() {
         StringUtils.replaceLast("Hello", "o", "");
         StringUtils.lengthAllLowerCaseLetters("Hello World");
+        StringUtils.lengthAllCaseLetters("Hello World");
         StringUtils.lengthAllUpperCaseLetters("Hello World");
         StringUtils.lengthAllSpaces("Hello World");
     }

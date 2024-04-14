@@ -1,57 +1,35 @@
 package de.lcraft.lapi.configurationSystem.yaml.loadSystem;
 
-import de.lcraft.lapi.configurationSystem.yaml.AvailableTypes;
-import de.lcraft.lapi.configurationSystem.yaml.Config;
-import de.lcraft.lapi.configurationSystem.yaml.Item;
+import de.lcraft.lapi.configurationSystem.yaml.managment.Item;
 
-class LoadItem extends Item {
+public class LoadItem extends Item implements de.lcraft.lapi.configurationSystem.api.yaml.loadSystem.LoadItem {
 
-    private LoadManager loadManager;
-    private String parentLine;
+    private String rawLine;
+    private String line;
 
-    public LoadItem(LoadManager loadManager, String line, String[] beforeLines) {
-        this.loadManager = loadManager;
-        setLine(line);
-        setWeight(calcWeight(getLine()));
-        setId(getSplitLine(getLineWithoutStartSpaces(line))[0]);
-        setValue(getSplitLine(getLineWithoutStartSpaces(line))[1]);
-        setParentLine(generateParentLine(beforeLines));
-        setRoot(generateRoot());
-        setType(AvailableTypes.getTypeByRawValue(getRawValue()));
+    public LoadItem(String root, String id, String completeRoot, Integer weight, String rawValue, Object value, String rawLine, String line) {
+        super(root, id, completeRoot, weight, rawValue, value);
+        init(rawLine, line);
+    }
+    private void init(String rawLine, String line) {
+        if(rawLine != null) setRawLine(rawLine);
+        if(line != null) setLine(line);
     }
 
-    private int calcWeight(String line) {
-        return line.split(" ").length / Config.CONV_SIZE;
+    @Override
+    public String getRawLine() {
+        return this.rawLine;
     }
-    private String generateParentLine(String[] beforeLines) {
-        if(getWeight() == 0) return "";
-
-        int bestLevelBefore = 0;
-        for(int i = 0; i < beforeLines.length; i++) {
-            String cLine = beforeLines[i];
-            int cWeight = calcWeight(cLine);
-            if(cWeight < getWeight()) {
-                bestLevelBefore = i;
-            }
-        }
-        return beforeLines[bestLevelBefore];
-    }
-    private String generateRoot() {
-        LoadItem loadItem = getLoadManager().getLoadItemByLine(getParentLine());
-        String root = "";
-        if(loadItem != null) root = loadItem.getRoot() + ".";
-
-        return root + getId();
+    @Override
+    public String getLine() {
+        return this.line;
     }
 
-    public LoadManager getLoadManager() {
-        return loadManager;
+    private void setRawLine(String rawLine) {
+        this.rawLine = rawLine;
     }
-    protected void setParentLine(String parentLine) {
-        this.parentLine = parentLine;
-    }
-    protected String getParentLine() {
-        return parentLine;
+    private void setLine(String line) {
+        this.line = line;
     }
 
 }

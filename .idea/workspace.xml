@@ -10,36 +10,28 @@
   <component name="ChangeListManager">
     <list default="true" id="debdbb7d-ed5c-427a-9563-42363b269a54" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/target/configurationSystem-1.2.1 b5.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/target/configurationSystem-1.2.1 b5.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaUtils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaUtils/src/main/java/de/lcraft/lapi/javaUtils/ArrayUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/yaml/AvailableTypes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/yaml/Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/yaml/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/yaml/loadSystem/LoadItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/yaml/loadSystem/LoadManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/yaml/saveSystem/SaveItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/yaml/saveSystem/SaveItemSorter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/yaml/saveSystem/SaveManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/yaml/AvailableTypes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/yaml/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/yaml/Config.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/yaml/Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/yaml/loadSystem/LoadItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/yaml/loadSystem/LoadItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/yaml/loadSystem/LoadManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/yaml/saveSystem/SaveItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/yaml/saveSystem/SaveItemSorter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/yaml/saveSystem/SaveManager.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaUtils/src/main/java/de/lcraft/lapi/javaUtils/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/src/main/java/de/lcraft/lapi/javaUtils/FileUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaUtils/src/main/java/de/lcraft/lapi/javaUtils/InternetUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/src/main/java/de/lcraft/lapi/javaUtils/InternetUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaUtils/src/main/java/de/lcraft/lapi/javaUtils/ListUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/src/main/java/de/lcraft/lapi/javaUtils/ListArrayUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaUtils/src/main/java/de/lcraft/lapi/javaUtils/NumberUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/src/main/java/de/lcraft/lapi/javaUtils/NumberUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaUtils/src/main/java/de/lcraft/lapi/javaUtils/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/src/main/java/de/lcraft/lapi/javaUtils/StringUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaUtils/src/main/java/de/lcraft/lapi/javaUtils/XPSCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/src/main/java/de/lcraft/lapi/javaUtils/XPSCounter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaUtils/src/main/java/de/lcraft/lapi/javaUtils/format/FormatUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/src/main/java/de/lcraft/lapi/javaUtils/format/FormatUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaUtils/src/main/java/de/lcraft/lapi/javaUtils/queueWorker/ProcessQueueManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/src/main/java/de/lcraft/lapi/javaUtils/queueWorker/ProcessQueueManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/ArrayUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaUtils/src/test/java/de/lcraft/lapi/javaUtils/JavaUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/src/test/java/de/lcraft/lapi/javaUtils/JavaUtilsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/FileUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/FileUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/InternetUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/InternetUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/ListUtils.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/StringUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/StringUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/XPSCounter.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/XPSCounter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/format/FormatUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/format/FormatUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/queueWorker/ProcessQueueManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/queueWorker/ProcessQueueManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaUtils/target/javaUtils-1.0.0 b7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaUtils/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaUtils/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaUtils/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaUtils/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LanguagesSystem/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LanguagesSystem/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LanguagesSystem/target/languagesSystem-1.0.0 b5.jar" beforeDir="false" afterPath="$PROJECT_DIR$/LanguagesSystem/target/languagesSystem-1.0.0 b5.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/McReflection/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/McReflection/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/McReflection/target/mcReflection-1.0.0 b2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/McReflection/target/mcReflection-1.0.0 b2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaUtils/target/test-classes/de/lcraft/lapi/javaUtils/JavaUtilsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/target/test-classes/de/lcraft/lapi/javaUtils/JavaUtilsTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +41,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -77,6 +71,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.ConfigTest.testConfig.executor": "Run",
     "Maven.Install.executor": "Run",
     "Maven.Maven Test.executor": "Run",
     "Maven.Package.executor": "Run",
@@ -91,13 +86,35 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Maven.Package">
+  <component name="RunManager" selected="JUnit.ConfigTest.testConfig">
+    <configuration name="ConfigTest.testConfig" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="configurationSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.lcraft.lapi.configurationSystem.yaml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.lcraft.lapi.configurationSystem.yaml" />
+      <option name="MAIN_CLASS_NAME" value="de.lcraft.lapi.configurationSystem.yaml.ConfigTest" />
+      <option name="METHOD_NAME" value="testConfig" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="JUnit.ConfigTest.testConfig" />
       <item itemvalue="Maven.Version Check" />
       <item itemvalue="Maven.Package" />
       <item itemvalue="Maven.Test" />
       <item itemvalue="Maven.Maven Test" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ConfigTest.testConfig" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
