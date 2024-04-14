@@ -8,31 +8,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="debdbb7d-ed5c-427a-9563-42363b269a54" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/yaml/AvailableTypes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/yaml/Config.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/yaml/Item.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/yaml/loadSystem/LoadItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/yaml/loadSystem/LoadManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/yaml/saveSystem/SaveItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/yaml/saveSystem/SaveItemSorter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/yaml/saveSystem/SaveManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/yaml/AvailableTypes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/yaml/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/yaml/Config.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/yaml/Item.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/yaml/loadSystem/LoadItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/yaml/loadSystem/LoadItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/yaml/loadSystem/LoadManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/yaml/saveSystem/SaveItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/yaml/saveSystem/SaveItemSorter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationSystem/target/classes/de/lcraft/lapi/configurationSystem/yaml/saveSystem/SaveManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaUtils/src/main/java/de/lcraft/lapi/javaUtils/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/src/main/java/de/lcraft/lapi/javaUtils/FileUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaUtils/src/main/java/de/lcraft/lapi/javaUtils/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/src/main/java/de/lcraft/lapi/javaUtils/StringUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaUtils/src/test/java/de/lcraft/lapi/javaUtils/JavaUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/src/test/java/de/lcraft/lapi/javaUtils/JavaUtilsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/FileUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/FileUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/StringUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/target/classes/de/lcraft/lapi/javaUtils/StringUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaUtils/target/test-classes/de/lcraft/lapi/javaUtils/JavaUtilsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaUtils/target/test-classes/de/lcraft/lapi/javaUtils/JavaUtilsTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="debdbb7d-ed5c-427a-9563-42363b269a54" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,9 +34,9 @@
       <scope name="Own project" />
     </order>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2f0iafmCMgE92PJPr9JU8r2QHXa" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -69,23 +45,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.ConfigTest.testConfig.executor": "Run",
-    "Maven.Install.executor": "Run",
-    "Maven.Maven Test.executor": "Run",
-    "Maven.Package.executor": "Run",
-    "Maven.Test.executor": "Run",
-    "Maven.Version Check.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "dev__1.1",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Global Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.ConfigTest.testConfig.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Install.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Maven Test.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Package.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Version Check.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev__1.1&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="JUnit.ConfigTest.testConfig">
     <configuration name="ConfigTest.testConfig" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="configurationSystem" />
