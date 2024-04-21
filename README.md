@@ -8,6 +8,7 @@ Now recreating to the newest v1.1 with a faster and more customizable structure,
 
 ![Downloads](https://img.shields.io/github/downloads/Lcraft-Developers/Lcraft-APIs/total?event=push&label=Downloads&logo=github)
 [![Join us on Discord](https://img.shields.io/discord/856084949827321876.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/j2KwBaHZgD)
+[![wakatime](https://wakatime.com/badge/user/1ceb9ffd-31f8-4aa4-a8a3-17be826ad9ba/project/d61ff6af-f02d-428e-bb35-ccbf8d01d068.svg)](https://wakatime.com/badge/user/1ceb9ffd-31f8-4aa4-a8a3-17be826ad9ba/project/d61ff6af-f02d-428e-bb35-ccbf8d01d068)
 
 ## **Our Projects**
 
