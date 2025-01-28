@@ -59,10 +59,11 @@
     "Maven.Test.executor": "Run",
     "Maven.Version Check.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "dev__1.1",
+    "git-widget-placeholder": "<unknown>",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/LPDs Gaming Laptop/Desktop/Development/workspace/LcraftAPI/ConfigurationSystem/src/main/java/de/lcraft/lapi/configurationSystem/newsql/commands",
+    "last_opened_file_path": "C:/Users/Schüler/Desktop/Private Dev/workspace/LuminaCloud",
     "project.structure.last.edited": "Global Libraries",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2"
